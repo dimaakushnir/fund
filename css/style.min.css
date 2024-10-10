@@ -184,14 +184,15 @@ main {
 
 .logo {
   display: flex;
-  height: 43.83px;
   position: relative;
 }
 .logo img {
-  max-width: 100%;
+  width: 219.98px;
+  height: 43.83px;
 }
 @media (max-width: 1024.98px) {
-  .logo {
+  .logo img {
+    width: 197.982px;
     height: 39.447px;
   }
 }
@@ -1416,6 +1417,7 @@ h4 {
   display: flex;
   align-items: center;
   overflow: hidden;
+  white-space: nowrap;
 }
 .menu__link::after {
   position: absolute;
@@ -2703,8 +2705,7 @@ h4 {
   margin: 0 0 16px 0;
 }
 .item-values__icon img {
-  width: 28px;
-  height: 30px;
+  max-width: 100%;
 }
 .item-values__title {
   font-size: 20px;
